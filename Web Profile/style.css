@@ -1,0 +1,219 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+h1{
+    color: #3881ff;
+    text-decoration: underline;
+}
+h2{
+    color: #0000FF;
+
+}
+h3{
+    color: #EB00EF; /* rose */
+    font-style: italic;
+}
+.fin
+{
+    padding-top: 10px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+.retour {
+    border: 1.5px solid black;
+    border-radius: 14px;
+    zoom: 1.5;
+    background-color: #EB00EF; /* rose */
+    cursor: pointer;
+}
+.retour a {
+    text-decoration: none;
+}
+.arrondi
+{
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 2rem;
+    color: palegoldenrod;
+    background-color: #3881ff; /* violet */
+}
+.important{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.container_global {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.container_droite {
+    float: right;
+    width: 60%;
+}
+.container_gauche {
+    float: left;
+    width: 40%;
+}
+
+
+.centrer{
+    text-align: center;
+}
+
+.surligne_1{
+    background-color: #3881ff; /* violet */
+}
+
+.encadre{
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+    color: #0000FF;
+}
+.doubleencadre{
+    text-align: center;
+    margin-bottom: 10px;
+    border-width: 3px;
+    border-style: double;
+    border-color: black;
+}
+.titre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 64px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    background-color: cyan;
+}
+
+.id{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    width: 30%;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 1px black;
+    background-color: white;
+}
+.milieu {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+
+    margin-bottom: 10px;
+    border: solid 1px black;
+    padding: 10px;
+    background-color: cyan;
+}
+.majeur {
+    justify-content: space-between;
+    align-content: center;
+
+    width: 70%;
+    padding: 10px;
+    border: solid 1px black;
+    background-color: white;
+}
+.stage {
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+    border: solid 1px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #3881ff; /* violet */
+}
+
+@media screen and (max-width:600px)
+{
+    body {
+        background-color: #3881ff; /* violet */
+        margin-bottom: 8px;
+    }
+    h1{
+        color: #3881ff; /* violet */
+        text-shadow: 2px 2px 0 cyan;
+    }
+    .fin
+    {
+        padding-top: 0;
+        padding-bottom: 10px;
+        bottom: 20px;
+        right: 30px;
+    }
+    .encadre{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .doubleencadre{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .arrondi
+    {
+        background-color: cyan;
+    }
+    .surligne_1{
+        background-color: cyan;
+    }
+    .titre {
+        width: 100%;
+        background-color: white;
+    }
+    .id {
+        justify-content: space-around;
+        align-items: stretch;
+
+        height: auto;
+        width: 100%;
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .milieu {
+        flex-direction: column;
+
+        height: auto;
+        border: none;
+        margin-bottom: 0;
+        padding: 0;
+        background-color: #3881ff; /* violet */
+    }
+    .majeur {
+        justify-content: space-around;
+        align-items: center;
+
+        height: auto;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        padding-right: 10px;
+    }
+    .stage {
+        justify-content: space-around;
+
+        width: auto;
+        height: auto;
+        padding-bottom: 0;
+        padding-right: 10px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-left: 10px;
+        background-color: cyan;
+    }
+}
