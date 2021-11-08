@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="checkoutstyle.css">
+</head>
+<body>
+<div class="invoice-box">
+  <table cellpadding="0" cellspacing="0">
+    <tr class="top">
+      <td colspan="4">
+        <table>
+          <tr>
+            <td class="title">
+              <img src="https://www.zaidandiamonds.com/wp-content/uploads/2021/03/logosmall-2.png" style="width:100%; max-width:300px;">
+            </td>
+
+            <td>
+              Invoice #: 123<br> Created: November 8, 2021<br> Due: Desember 8, 2021
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr class="information">
+      <td colspan="4">
+        <table>
+          <tr>
+            <td>
+              ✅ Succes<br> Terimakasih, Zul<br> Pembelian sudah di konfirmasi !
+            </td>
+
+            
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr class="information">
+      <td colspan="4">
+        <table>
+          <tr>
+            <td>
+              PT. Zaidan Sejahtera<br>Ciomas, Cibeurem<br> Bogor, Jawa Barat 12345
+            </td>
+
+            <td>
+              Zulfikar<br> zulsleep1@gmail.com
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr class="heading">
+      <td colspan="3">Pembayaran</td>
+      <td>Cash</td>
+    </tr>
+
+    <tr class="details">
+      <td colspan="3">Cash</td>
+      <td>Rp.500.000,-</td>
+    </tr>
+
+    <tr class="heading">
+      <td>Nama</td>
+      <td>Harga</td>
+      <td>Jumlah</td>
+      <td>Total</td>
+    </tr>
+
+    <tr class="item" v-for="item in items">
+      <td>Baju Koko</td>
+      <td>Rp.130.000,-</td>
+      <td>1</td>
+      <td>Rp.130.000,-</td>
+    </tr>
+    <tr class="item" v-for="item in items">
+      <td>Kopeah Nasional</td>
+      <td>Rp.100.000,-</td>
+      <td>1</td>
+      <td>Rp.100.000,-</td>
+    </tr>
+    <tr class="item" v-for="item in items">
+      <td>Sarung "Gajah Terbang"</td>
+      <td>Rp.200.000,-</td>
+      <td>1</td>
+      <td>Rp.200.000,-</td>
+    </tr>
+    <tr class="item" v-for="item in items">
+      <td>Sendal Jepit</td>
+      <td>Rp.20.000,-</td>
+      <td>1</td>
+      <td>Rp.20.000,-</td>
+    </tr>
+
+   
+
+    <tr class="total">
+      <td colspan="3"></td>
+      <td>Total: Rp.450.000,-</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
